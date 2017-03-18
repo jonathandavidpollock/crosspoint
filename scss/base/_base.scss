@@ -11,9 +11,8 @@ body {
 .btn, a {
   background-color:$pc;
   color:$white;
-  text-transform: uppercase;
   border-radius: 20px;
-  padding: 5px 35px;
+  padding: 10px 45px;
 }
 
 .nav {
@@ -75,4 +74,41 @@ footer {
   h2 {
     color:$white;
   }
+}
+
+.grey {
+  background-color:#efefef;
+}
+
+.red {
+  background-color:$pc;
+}
+
+.redText {
+  color:$pc;
+}
+
+.whiteText {
+  color:$white;
+}
+
+.underline {
+  display:inline-block;
+  padding-left:1rem;
+  padding-right:1rem;
+  border-bottom: 3px solid $white;
+}
+
+.underlineRed {
+  border-bottom-color: $pc;
+}
+
+.give {
+  background: url('../assets/givingBasket.jpg') center center no-repeat;
+  padding:20rem;
+}
+
+.inside {
+  background: url('../assets/insideChurch.jpg') center center no-repeat;
+  padding:20rem;
 }

@@ -5743,9 +5743,8 @@ body {
 .btn, a {
   background-color: #E54054;
   color: #ffffff;
-  text-transform: uppercase;
   border-radius: 20px;
-  padding: 5px 35px; }
+  padding: 10px 45px; }
 
 .nav {
   background-color: #E54054; }
@@ -5792,3 +5791,32 @@ footer {
   background-color: #323E46; }
   footer h2 {
     color: #ffffff; }
+
+.grey {
+  background-color: #efefef; }
+
+.red {
+  background-color: #E54054; }
+
+.redText {
+  color: #E54054; }
+
+.whiteText {
+  color: #ffffff; }
+
+.underline {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: 3px solid #ffffff; }
+
+.underlineRed {
+  border-bottom-color: #E54054; }
+
+.give {
+  background: url("../assets/givingBasket.jpg") center center no-repeat;
+  padding: 20rem; }
+
+.inside {
+  background: url("../assets/insideChurch.jpg") center center no-repeat;
+  padding: 20rem; }
