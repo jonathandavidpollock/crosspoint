@@ -5820,3 +5820,7 @@ footer {
 .inside {
   background: url("../assets/insideChurch.jpg") center center no-repeat;
   padding: 20rem; }
+
+.highlight {
+  color: #E54054;
+  text-decoration: underline; }
