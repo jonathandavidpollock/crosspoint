@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  color:$sc;
+}
+
+.btn, a {
+  background-color:$pc;
+  color:$white;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 5px 35px;
+}
+
+.nav {
+  background-color:$pc;
+  li:hover {
+    background-color:$sc;
+  }
+}
+
+.hero {
+  background: url('../assets/wideshotChurch.jpg') center center;
+}
+
+.text-logo {
+  padding-top:5rem;
+  padding-bottom:3rem;
+  display:block;
+  width:75%;
+
+}
+
+.frame {
+  background-image: $sc;
+  img {
+    max-width:400px;
+  }
+}
+
+.accentBG {
+  background-color:$sc;
+}
+
+.accent {
+  color:$pc;
+}
+.accentText {
+  color:$white;
+}
+
+.newline {
+  display:block;
+}
+
+.whitetext {
+  color:$white;
+}
+
+.redtext {
+  color:$pc;
+}
+
+.bottomredline {
+  background-color:$pc;
+  padding:.5rem;
+}
+
+footer {
+  background-color:$sc;
+  h2 {
+    color:$white;
+  }
+}
