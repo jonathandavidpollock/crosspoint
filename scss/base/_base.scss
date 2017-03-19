@@ -22,8 +22,14 @@ body {
   }
 }
 
+.mapImage {
+  background: url('../assets/Pelham.jpg'), linear-gradient(#E54054, #E54054);
+  background-size:cover;
+}
+
 .hero {
   background: url('../assets/wideshotChurch.jpg') center center;
+  background-size:cover;
 }
 
 .text-logo {
@@ -36,9 +42,6 @@ body {
 
 .frame {
   background-image: $sc;
-  img {
-    max-width:400px;
-  }
 }
 
 .accentBG {
@@ -104,16 +107,59 @@ footer {
 }
 
 .give {
-  background: url('../assets/givingBasket.jpg') center center no-repeat;
+  background: url('../assets/givingBasket.jpg') center center no-repeat cover;
   padding:20rem;
 }
 
 .inside {
   background: url('../assets/insideChurch.jpg') center center no-repeat;
+  background-size:cover;
   padding:20rem;
+}
+
+img,i {
+  display:block;
+  margin:auto;
 }
 
 .highlight {
   color:$pc;
   text-decoration: underline;
 }
+
+.pdtop {
+  padding-top:10rem;
+}
+
+.pdbtm {
+  padding-bottom:10rem;
+}
+
+.CTA {
+  margin-bottom: 5rem;
+}
+
+.ministry, .accentBG,.center-align {
+  text-align:center;
+}
+
+.bold {font-weight:bold;}
+
+.ministry {
+  background-color:transparent;
+  color:$sc;
+}
+
+.ministryDescription { background-color:$pc;}
+
+.img-thumbnail {
+  background-color:$sc;
+  border:none;
+  border-radius:0;
+  padding:6px;
+}
+
+.pdt2 { padding-top:2rem;}
+.pdt3 { padding-top:3rem;}
+.pdt5 { padding-top:5rem;}
+.pdt10 { padding-top:10rem;}
