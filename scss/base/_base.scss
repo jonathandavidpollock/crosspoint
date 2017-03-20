@@ -1,165 +1,297 @@
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: 'Montserrat', sans-serif;
-  color:$sc;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: $sc;
 }
 
-.btn, a {
-  background-color:$pc;
-  color:$white;
-  border-radius: 20px;
-  padding: 10px 45px;
+.navbar-left {
+    width: 90px;
 }
 
-.nav {
-  background-color:$pc;
-  li:hover {
-    background-color:$sc;
-  }
+.btn,
+a {
+    background-color: $pc;
+    color: $white;
+    border-radius: 20px;
+    padding: 10px 45px;
+}
+
+.navbar {
+    background-color: $pc;
+    border-radius: 0;
+
+    li a {
+        border-radius: 0;
+        margin:0 1px;
+        border:4px solid transparent;
+        width:200px;
+    }
+
+    li a:hover {
+        border-radius: 0;
+        background-color: $sc;
+        border: 4px solid $grey;
+        color: $white;
+        border-top: 0;
+        border-right: 0;
+        box-shadow: 5px 5px 5px #888888;
+
+    }
 }
 
 .mapImage {
-  background: url('../assets/Pelham.jpg'), linear-gradient(#E54054, #E54054);
-  background-size:cover;
+    //background: url('../assets/Pelham.jpg') center center no-repeat;
+    background: linear-gradient(rgba(229, 64, 84, 0.7), rgba(229, 64, 84, 0.7) ), url("../assets/Pelham.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .hero {
-  background: url('../assets/wideshotChurch.jpg') center center;
-  background-size:cover;
+    background: linear-gradient(rgba(229, 64, 84, 0.3), rgba(229, 64, 84, 0.3) ), url("../assets/wideshotChurch.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .text-logo {
-  padding-top:5rem;
-  padding-bottom:3rem;
-  display:block;
-  width:75%;
-
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    display: block;
+    width: 75%;
 }
 
 .frame {
-  background-image: $sc;
+    background-image: $sc;
 }
 
 .accentBG {
-  background-color:$sc;
+    background-color: $sc;
 }
 
 .accent {
-  color:$pc;
+    color: $pc;
 }
+
 .accentText {
-  color:$white;
+    color: $white;
 }
 
 .newline {
-  display:block;
+    display: block;
 }
 
 .whitetext {
-  color:$white;
+    color: $white;
 }
 
 .redtext {
-  color:$pc;
+    color: $pc;
 }
 
 .bottomredline {
-  background-color:$pc;
-  padding:.5rem;
+    background-color: $pc;
+    padding: 0.5rem;
 }
 
 footer {
-  background-color:$sc;
-  h2 {
-    color:$white;
-  }
+    background-color: $sc;
+
+    h2 {
+        color: $white;
+    }
 }
 
 .grey {
-  background-color:#efefef;
+    background-color: #efefef;
 }
 
 .red {
-  background-color:$pc;
+    background-color: $pc;
 }
 
 .redText {
-  color:$pc;
+    color: $pc;
 }
 
 .whiteText {
-  color:$white;
+    color: $white;
 }
 
 .underline {
-  display:inline-block;
-  padding-left:1rem;
-  padding-right:1rem;
-  border-bottom: 3px solid $white;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 3px solid $white;
 }
 
 .underlineRed {
-  border-bottom-color: $pc;
+    border-bottom-color: $pc;
 }
 
 .give {
-  background: url('../assets/givingBasket.jpg') center center no-repeat cover;
-  padding:20rem;
+    background: url('../assets/givingBasket.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 20rem;
+}
+
+.giveBtn {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .inside {
-  background: url('../assets/insideChurch.jpg') center center no-repeat;
-  background-size:cover;
-  padding:20rem;
+    background: url('../assets/insideChurch.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 20rem;
 }
 
-img,i {
-  display:block;
-  margin:auto;
+i,
+img {
+    display: block;
+    margin: auto;
 }
 
 .highlight {
-  color:$pc;
-  text-decoration: underline;
+    color: $pc;
+    text-decoration: underline;
 }
 
 .pdtop {
-  padding-top:10rem;
+    padding-top: 10rem;
 }
 
 .pdbtm {
-  padding-bottom:10rem;
+    padding-bottom: 10rem;
 }
+
+.svgMinistry {max-width:100px;}
+
+.glasses { max-width:65px};
+
+.marginbottom { margin-bottom:3rem;}
+
+.navbar-default {
+    border: none;
+}
+
+.big-paragraph { font-size:2rem;}
 
 .CTA {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
-.ministry, .accentBG,.center-align {
-  text-align:center;
+.navbar-toggle {
+    border: none;
+    border-color: $white;
+
+    #hamburger {
+        background-color: $white;
+        background-color: #ffffff;
+        width: 30px;
+        height: 4px;
+        border-radius: 5px;
+    }
 }
 
-.bold {font-weight:bold;}
+.navbar-brand {
+    position: relative;
+}
+
+.positionLogo {
+    position: absolute;
+    top: 3px;
+}
+
+.svgLogo {
+    max-width: 45px;
+}
+
+.accentBG,
+.center-align,
+.ministry {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 .ministry {
-  background-color:transparent;
-  color:$sc;
+    background-color: transparent;
+    color: $sc;
 }
 
-.ministryDescription { background-color:$pc;}
+.ministryDescription {
+    background-color: $pc;
+}
 
 .img-thumbnail {
-  background-color:$sc;
-  border:none;
-  border-radius:0;
-  padding:6px;
+    background-color: $sc;
+    border: none;
+    border-radius: 0;
+    padding: 6px;
 }
 
-.pdt2 { padding-top:2rem;}
-.pdt3 { padding-top:3rem;}
-.pdt5 { padding-top:5rem;}
-.pdt10 { padding-top:10rem;}
+#noborder {
+    border-bottom: none;
+}
+
+.svg {
+    max-width: 80px;
+}
+
+.heart {
+    max-width: 100px;
+}
+
+.svgPhone {
+    max-width: 50px;
+}
+@media (max-width:500px) {
+    // .inline-block-mobile {
+    //     display: inline-block;
+    // }
+
+    .svg {
+        max-width: 55px;
+    }
+}
+
+@media (min-width:800px) {
+  .CTA { font-size:2rem;}
+}
+// Utility Classes
+.pdt2 {
+    padding-top: 2rem;
+}
+
+.pdb3 {
+    padding-bottom: 2rem;
+}
+
+.pdt3 {
+    padding-top: 3rem;
+}
+
+.pdb3 {
+    padding-bottom: 3rem;
+}
+
+.pdt5 {
+    padding-top: 5rem;
+}
+
+.pdb5 {
+    padding-bottom: 5rem;
+}
+
+.pdt10 {
+    padding-top: 10rem;
+}
+
+.pdb10 {
+    padding-bottom: 10rem;
+}
+
+.mgt2 { margin-top:2rem;}
