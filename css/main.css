@@ -5743,12 +5743,19 @@ body {
 .navbar-left {
   width: 90px; }
 
+.line {
+  border-top: 2px solid;
+  padding-top: 1rem; }
+
 .btn,
 a {
   background-color: #E54054;
   color: #ffffff;
   border-radius: 20px;
   padding: 10px 45px; }
+
+h2, h3 {
+  font-weight: 900; }
 
 .navbar {
   background-color: #E54054;
@@ -5827,7 +5834,8 @@ footer {
   display: inline-block;
   padding-left: 1rem;
   padding-right: 1rem;
-  border-bottom: 3px solid #ffffff; }
+  border-bottom: 3px solid #ffffff;
+  margin-bottom: 2rem; }
 
 .underlineRed {
   border-bottom-color: #E54054; }
@@ -5851,6 +5859,9 @@ img {
   display: block;
   margin: auto; }
 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #323E46; }
+
 .highlight {
   color: #E54054;
   text-decoration: underline; }
@@ -5862,7 +5873,12 @@ img {
   padding-bottom: 10rem; }
 
 .svgMinistry {
-  max-width: 100px; }
+  max-width: 100px;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+  .svgMinistry:hover {
+    transform: scale(1.1);
+    transition: .3s; }
 
 .glasses {
   max-width: 65px; }
@@ -5874,7 +5890,8 @@ img {
   border: none; }
 
 .big-paragraph {
-  font-size: 2rem; }
+  font-size: 2rem;
+  transition: .2s; }
 
 .CTA {
   margin-bottom: 5rem; }
@@ -5932,9 +5949,27 @@ img {
 .svgPhone {
   max-width: 50px; }
 
+.discipleship {
+  max-width: 130px; }
+
+.nuture {
+  max-width: 140px; }
+
+.kids {
+  max-width: 180px; }
+
 @media (max-width: 500px) {
   .svg {
     max-width: 55px; } }
+
+@media (max-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    margin: auto; }
+  .nav {
+    padding-bottom: 1rem; }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ffffff;
+    border-width: 1px; } }
 
 @media (min-width: 800px) {
   .CTA {
