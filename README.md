@@ -1,5 +1,5 @@
 # Crosspoint Website
-These files are my base files for most projects. To run get started you'll need to download a few packages with Node. 
+To run this project you'll need to download a few packages with Node. 
 
 ## Step 1
 Clone the Repo. CD into the directory.
